@@ -1,0 +1,240 @@
+2026-02-12 15:00:37,901 - INFO - bot.client - Binance Futures Testnet client initialized.
+2026-02-12 15:00:37,901 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 15:00:38,394 - ERROR - bot.client - API Error: APIError(code=-2014): API-key format invalid.
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 28, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2014): API-key format invalid.
+2026-02-12 15:00:38,401 - ERROR - root - Order failed: APIError(code=-2014): API-key format invalid.
+2026-02-12 15:00:59,470 - INFO - bot.client - Binance Futures Testnet client initialized.
+2026-02-12 15:00:59,471 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-02-12 15:00:59,735 - ERROR - bot.client - API Error: APIError(code=-2014): API-key format invalid.
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 28, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2014): API-key format invalid.
+2026-02-12 15:00:59,739 - ERROR - root - Order failed: APIError(code=-2014): API-key format invalid.
+2026-02-12 15:32:45,010 - ERROR - root - Order failed: API credentials not found in environment.
+2026-02-12 15:38:21,747 - INFO - bot.client - Binance Futures Testnet client initialized.
+2026-02-12 15:38:21,748 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 15:38:22,241 - ERROR - bot.client - API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 29, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 15:38:22,254 - ERROR - root - Order failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 15:39:46,471 - INFO - bot.client - Binance Futures Testnet client initialized.
+2026-02-12 15:39:46,478 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 15:39:46,962 - ERROR - bot.client - API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 29, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 15:39:46,968 - ERROR - root - Order failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 15:59:50,020 - INFO - bot.client - Binance Futures Demo/Testnet client initialized.
+2026-02-12 15:59:50,023 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 15:59:50,416 - ERROR - bot.client - API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 28, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 15:59:50,425 - ERROR - root - Order failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 18:26:42,868 - INFO - bot.client - Binance Futures Demo/Testnet client initialized.
+2026-02-12 18:26:42,872 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 18:26:43,397 - ERROR - bot.client - API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 28, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 18:26:43,405 - ERROR - root - Order failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 18:31:36,325 - INFO - bot.client - Binance Futures client initialized.
+2026-02-12 18:31:36,325 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 18:31:36,684 - ERROR - bot.client - API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 27, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 18:31:36,694 - ERROR - root - Order failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 18:36:59,117 - INFO - bot.client - Binance Futures client initialized.
+2026-02-12 18:36:59,117 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 18:36:59,397 - ERROR - bot.client - API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 27, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 18:36:59,408 - ERROR - root - Order failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 18:38:23,923 - INFO - bot.client - Binance Futures client initialized.
+2026-02-12 18:38:23,923 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 18:38:24,242 - ERROR - bot.client - API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 27, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 18:38:24,249 - ERROR - root - Order failed: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-02-12 18:41:09,480 - INFO - bot.client - Binance Futures DEMO client initialized.
+2026-02-12 18:41:09,483 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 18:41:10,028 - ERROR - bot.client - API Error: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 29, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-12 18:41:10,032 - ERROR - root - Order failed: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-12 18:45:10,068 - ERROR - root - Order failed: 'Client' object has no attribute '_get_server_time'
+2026-02-12 18:46:01,964 - ERROR - root - Order failed: 'BinanceFuturesClient' object has no attribute 'place_order'
+2026-02-12 18:46:49,468 - INFO - bot.client - Binance Futures DEMO client initialized.
+2026-02-12 18:46:49,468 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 18:46:49,662 - ERROR - bot.client - API Error: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 65, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-12 18:46:49,676 - ERROR - root - Order failed: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-12 18:50:35,612 - INFO - bot.client - Binance Futures DEMO client initialized.
+2026-02-12 18:50:35,612 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 18:50:35,792 - ERROR - bot.client - API Error: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 66, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-12 18:50:35,799 - ERROR - root - Order failed: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2026-02-12 18:52:02,904 - INFO - bot.client - Binance Futures DEMO client initialized.
+2026-02-12 18:52:02,906 - ERROR - bot.client - API Error: name 'kwargs' is not defined
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 64, in __init__
+    logger.info(f"Placing order: {kwargs}")
+NameError: name 'kwargs' is not defined
+2026-02-12 18:52:02,908 - ERROR - root - Order failed: name 'kwargs' is not defined
+2026-02-12 18:53:14,313 - INFO - bot.client - Binance Futures DEMO client initialized.
+2026-02-12 18:53:14,313 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-12 18:53:14,480 - ERROR - bot.client - API Error: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 108, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-12 18:53:14,493 - ERROR - root - Order failed: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-12 18:54:35,978 - INFO - bot.client - Binance Futures DEMO client initialized.
+2026-02-12 18:54:35,980 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2026-02-12 18:54:36,228 - INFO - bot.client - Order response: {'orderId': 12214472513, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJd9b661140cbca1e035ef66', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1770902673335}
+2026-02-12 18:55:18,210 - INFO - bot.client - Binance Futures DEMO client initialized.
+2026-02-12 18:55:18,212 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.002, 'price': 50000.0, 'timeInForce': 'GTC'}
+2026-02-12 18:55:18,370 - ERROR - bot.client - API Error: APIError(code=-4024): Limit price can't be lower than 64454.90.
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\trading_bot\bot\client.py", line 108, in place_order
+    response = self.client.futures_create_order(**kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 7867, in futures_create_order
+    return self._request_futures_api("post", "order", True, data=params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 143, in _request_futures_api
+    return self._request(method, uri, signed, force_params, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 106, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\binance\client.py", line 115, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-4024): Limit price can't be lower than 64454.90.
+2026-02-12 18:55:18,375 - ERROR - root - Order failed: APIError(code=-4024): Limit price can't be lower than 64454.90.
+2026-02-12 18:56:02,198 - INFO - bot.client - Binance Futures DEMO client initialized.
+2026-02-12 18:56:02,199 - INFO - bot.client - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.002, 'price': 65000.0, 'timeInForce': 'GTC'}
+2026-02-12 18:56:02,400 - INFO - bot.client - Order response: {'orderId': 12214499475, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJd6c9a0c59e7c169f81a222', 'price': '65000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1770902759522}
