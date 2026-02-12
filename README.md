@@ -38,3 +38,10 @@ Logs are stored in logs/trading_bot.log
 ## Assumptions
 - Minimum notional enforced by exchange
 - Demo trading environment used
+
+## Security Note
+
+The `.env` file containing API credentials is intentionally excluded via `.gitignore`.
+Please create your own `.env` file before running.
+
+
